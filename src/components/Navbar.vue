@@ -12,6 +12,9 @@
         <li class="nav-item">
           <RouterLink to="/contact">Contact</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/qcm">QCM</RouterLink>
+        </li>
       </ul>
     </div>
   </nav>

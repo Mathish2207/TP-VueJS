@@ -3,7 +3,7 @@
     <h1>Formulaire de Contact</h1>
     <form @submit.prevent="submitForm">
       <div class="form-group">
-        <label for="name">Nom:</label>
+        <label for="name">Nom :</label>
         <input
           id="name"
           v-model="form.name"
@@ -14,7 +14,7 @@
       </div>
 
       <div class="form-group">
-        <label for="email">Email:</label>
+        <label for="email">Email :</label>
         <input
           id="email"
           v-model="form.email"
@@ -25,7 +25,7 @@
       </div>
 
       <div class="form-group">
-        <label for="subject">Sujet:</label>
+        <label for="subject">Sujet :</label>
         <input
           id="subject"
           v-model="form.subject"
@@ -36,7 +36,7 @@
       </div>
 
       <div class="form-group">
-        <label for="message">Message:</label>
+        <label for="message">Message :</label>
         <textarea
           id="message"
           v-model="form.message"
@@ -50,7 +50,7 @@
     </form>
 
     <div v-if="submitted" class="success-message">
-      Merci! Votre message a été envoyé avec succès.
+      Merci ! Votre message a été envoyé avec succès.
     </div>
   </div>
 </template>
@@ -101,6 +101,7 @@ export default {
 h1 {
   text-align: center;
   color: #333;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
