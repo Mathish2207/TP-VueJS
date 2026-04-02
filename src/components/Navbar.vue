@@ -18,6 +18,9 @@
         <li class="nav-item">
           <RouterLink to="/api">API REST</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/localisation">Localisation</RouterLink>
+        </li>
       </ul>
     </div>
   </nav>

@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'api',
       component: () => import('../views/ApiView.vue'),
     },
+    {
+      path: '/localisation',
+      name: 'localisation',
+      component: () => import('../views/LocalisationView.vue'),
+    },
   ],
 })
 

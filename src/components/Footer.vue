@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 Tous droits réservés.</p>
+      <p>&copy; 2026 Tous droits réservés.</p>
     </div>
   </footer>
 </template>
@@ -50,7 +50,6 @@ export default {
   margin-top: 30px;
 }
 
-/* Ne limite pas le contenu du footer en largeur, garde juste une zone centrée */
 .footer-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
