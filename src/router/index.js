@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'qcm',
       component: () => import('../views/QcmView.vue'),
     },
+    {
+      path: '/api',
+      name: 'api',
+      component: () => import('../views/ApiView.vue'),
+    },
   ],
 })
 

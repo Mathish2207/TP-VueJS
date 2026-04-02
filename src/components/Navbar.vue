@@ -15,6 +15,9 @@
         <li class="nav-item">
           <RouterLink to="/qcm">QCM</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/api">API REST</RouterLink>
+        </li>
       </ul>
     </div>
   </nav>
